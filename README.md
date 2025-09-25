@@ -4,6 +4,13 @@ Deep learned, NVIDIA-accelerated 3D object pose estimation
 
 <div align="center"><a class="reference internal image-reference" href="https://media.githubusercontent.com/media/NVIDIA-ISAAC-ROS/.github/main/resources/isaac_ros_docs/repositories_and_packages/isaac_ros_pose_estimation/dope_objects.png/"><img alt="image" src="https://media.githubusercontent.com/media/NVIDIA-ISAAC-ROS/.github/main/resources/isaac_ros_docs/repositories_and_packages/isaac_ros_pose_estimation/dope_objects.png/" width="400px"/></a></div>
 
+## Isaac Sim Integration with Melon Robot
+このパッケージは、NVIDIA Isaac Simと統合してmelonロボットでの姿勢推定に使用することができます。Isaac Simでmelonロボットをシミュレーション環境で動作させながら、リアルタイムで高精度な姿勢推定を実行することが可能です。特に、Isaac ROS FoundationPoseは、melonロボットのカメラからの画像データに対して高速な姿勢推定を提供します。
+
+※VRAMをかなり使用するので注意が必要です。
+
+詳しい使い方については、[こちら](./isaac_ros_foundationpose/README.md)を参照してください。
+
 ## Overview
 
 Isaac ROS Pose Estimation  contains
