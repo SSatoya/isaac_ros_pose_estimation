@@ -45,8 +45,8 @@ public:
   : Node("detection2_d_to_mask", options),
     input_qos_{::isaac_ros::common::AddQosParameter(*this, "DEFAULT", "input_qos")},
     output_qos_{::isaac_ros::common::AddQosParameter(*this, "DEFAULT", "output_qos")},
-    mask_width_(declare_parameter<int>("mask_width", 640)),
-    mask_height_(declare_parameter<int>("mask_height", 480)),
+    mask_width_(declare_parameter<int>("mask_width", 1280)),
+    mask_height_(declare_parameter<int>("mask_height", 720)),
     image_pub_{create_publisher<sensor_msgs::msg::Image>("segmentation", output_qos_)},
     detection2_d_sub_{create_subscription<vision_msgs::msg::Detection2D>(
         "detection2_d", input_qos_,
