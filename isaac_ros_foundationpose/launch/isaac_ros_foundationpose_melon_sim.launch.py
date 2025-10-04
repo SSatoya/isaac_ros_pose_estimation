@@ -417,8 +417,8 @@ def generate_launch_description():
             # ('pose_estimation/depth_image', '/depth_image'),
             ('pose_estimation/image', '/rgb/image_rect_color'),
             ('pose_estimation/camera_info', '/rgb/camera_info'),
-            ('pose_estimation/segmentation', 'segmentation'),
-            ('pose_estimation/output', '/rgb/output')
+            ('pose_estimation/segmentation', 'segmentation')
+            # ('pose_estimation/output', '/rgb/output')
 
         ]
     )
